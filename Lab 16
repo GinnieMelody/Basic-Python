@@ -1,0 +1,7 @@
+x = input("I'm very Tired")
+print(x.index(" "))
+y = x[x.index(" "):].strip()
+print(x[x.index(" "):].strip())
+print(y.index(" "))
+z = y[y.index(" "):].strip()
+print(z)
