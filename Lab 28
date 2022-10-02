@@ -1,0 +1,6 @@
+import math
+pi = math.pi
+r = float(input("Input r : "))
+print("{:2f},{:.3f}".format(pi*r**2,pi*r**2))
+print("{0:.2f})".format(pi*r**2))
+print(f"{pi*r**2:.3f}")
