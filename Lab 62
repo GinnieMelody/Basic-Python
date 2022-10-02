@@ -1,0 +1,4 @@
+x = 0
+for index in range(1,501):
+    x += index
+    print(f"Summary is {x}")
