@@ -1,0 +1,2 @@
+x = input("You are")
+print(x.replace("You are","U R"))
