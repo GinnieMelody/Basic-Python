@@ -1,0 +1,7 @@
+import math
+pi = math.pi
+A = (((math.sin(3*pi/2))*(1/math.cos(pi)))
+     +((1/((1-math.cos(2*(pi/4)))/2))*((((1-math.cos(2*(pi/6)))/2)/((1+math.cos(2*(pi/6)))/2)+1)))
+     -((math.sin(pi/6))*(math.cos(pi/4)/math.sin(pi/4))))
+print(A)
+print(round(6*A))
