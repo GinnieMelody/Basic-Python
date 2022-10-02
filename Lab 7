@@ -1,0 +1,5 @@
+myList = ["Chocolate","Strawberry","Curry","Tomyum","Sashimi"]
+print(myList)
+myList.remove("Curry")
+myList.remove("Tomyum")
+print(myList)
