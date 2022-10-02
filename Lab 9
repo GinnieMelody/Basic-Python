@@ -1,5 +1,4 @@
-x = input("Please enter your name : ")
-y = int(input("Please enter your Birth Year : "))
-
-txt = (f"Your name is : {x} , and you are {2020 - y} year.")
-print(txt)
+myList = ["Chocolate","Strawberry","Curry","Tomyum","Sashimi"]
+print(myList)
+myList.pop()
+print(myList)
