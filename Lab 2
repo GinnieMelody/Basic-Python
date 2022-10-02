@@ -1,0 +1,13 @@
+# x1 = "Ginnie"
+# x2 = 2004
+# x3 = 155
+# print ("My Name is " + str(x1))
+# print ("My Birth Year is " + str(x2))
+# print ("I'm tall " + str(x3))
+
+z = input("Enter Name : ")
+x = input("What your Birth Year : ")
+y = input("What Your are height : ")
+print ("Your name : " + z)
+print ("Birth Year : " + x)
+print ("Your Height : " + y)
