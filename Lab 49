@@ -1,0 +1,2 @@
+text = input("Enter text : ")
+print("fried owl" in text)
