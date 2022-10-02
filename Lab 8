@@ -1,0 +1,4 @@
+myList = ["Chocolate","Strawberry","Curry","Tomyum","Sashimi"]
+print(myList)
+myList.pop(3)
+print(myList)
