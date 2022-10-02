@@ -1,0 +1,5 @@
+myList = ["Chocolate","Strawberry","Curry","Tomyum","Sashimi"]
+print(myList)
+myList.insert(1, "Noodle")
+myList.insert(5, "Chicken")
+print(myList)
