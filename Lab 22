@@ -1,0 +1,4 @@
+y = int(input("Enter Number : "))
+x = int(input("Enter Number : "))
+
+print(f"{y} / {x} = {y/x} ")
