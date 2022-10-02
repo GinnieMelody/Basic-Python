@@ -1,0 +1,5 @@
+height = int(input("Input Height : "))
+side1 = int(input("Input side1 : "))
+side2 = int(input("Input side2 : "))
+
+print(f"1/2 x {height} x {side1+side2} = {1/2*height*(side1+side2)}
