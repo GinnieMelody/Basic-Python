@@ -1,0 +1,3 @@
+import math
+pi = math.pi
+print(round(math.cos(pi/2)-math.sin(5*pi/3)+math.tan(9*pi/4)-math.cos(5*pi/6)-(1/math.tan(7*pi/6))))
