@@ -1,0 +1,5 @@
+y = int(input("Enter Number : "))
+x = int(input("Enter Number : "))
+z = int(input("Enter Number : "))
+
+print(f"{y} x {x} x {z} = {y*x*z} ")
