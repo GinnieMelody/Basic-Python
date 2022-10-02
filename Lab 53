@@ -1,0 +1,16 @@
+x = int(input("Enter Number : "))
+y = input("Enter Operator : ")
+if y == "+":
+    z = int(input("Enter Number : "))
+    print(f"{x} + {z} = {x + z}")
+elif y == "-":
+    z = int(input("Enter Number : "))
+    print(f"{x} - {z} = {x - z}")
+elif y == "*":
+    z = int(input("Enter Number : "))
+    print(f"{x} * {z} = {x * z}")
+elif y == "/":
+    z = int(input("Enter Number : "))
+    print(f"{x} / {z} = {x / z}")
+else:
+    print(f"Incorrect operator. Please try again.")
