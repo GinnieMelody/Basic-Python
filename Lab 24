@@ -1,0 +1,4 @@
+width = int(input("Input Width : "))
+long = int(input("Input Long : "))
+
+print(f"{width} x {long} = {width*long}")
