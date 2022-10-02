@@ -1,0 +1,5 @@
+myList = ["Chocolate","Strawberry","Curry","Tomyum","Sashimi"]
+myList2 = ["Chicken","Noodle","Ice Cream","Cake","Cocoa"]
+myListExtend1 = myList + myList2
+myList.extend(myList2)
+print(myListExtend1)
