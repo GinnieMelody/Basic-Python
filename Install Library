@@ -1,0 +1,8 @@
+import pytube as pt
+import os
+url = input("Enter VDO Link : ")
+storagePath = "C:/Users/User/Downloads/Music"
+pt.YouTube(url).streams.get_highest_resolution().download(storagePath)
+print("Download successful")
+path = os.path.realpath(storagePath)
+os.startfile(path)
