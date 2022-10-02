@@ -1,0 +1,5 @@
+MyVariable,MyBirthYear,IsAdult,Height = "Ginnie",2004,False,155
+print (MyVariable)
+print (MyBirthYear)
+print (IsAdult)
+print (Height)
