@@ -1,0 +1,6 @@
+x = input("Enter Number : ")
+y = 0
+while (x.isnumeric()==True):
+    y+=int(x)
+    x = input("Enter Number : ")
+print(y)
