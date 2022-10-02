@@ -1,0 +1,7 @@
+def Function_Return(pi,r):
+    r = int(input("Input r : "))
+    print(f"pi {pi} x radian**2 {r**2} ")
+    return pi * r
+
+CircleArea =  Function_Return(pi=3.14,r=0)
+print(f"Circle Area is : {CircleArea}")
