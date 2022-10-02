@@ -1,0 +1,4 @@
+x = input("Tir")
+print(x.split(" ")[1])
+y = x.split(" ")
+print(y[0])
