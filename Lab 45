@@ -1,0 +1,2 @@
+x = int(input("Enter Number : "))
+print((0 <= x and x < 66) or (x >= 100))
