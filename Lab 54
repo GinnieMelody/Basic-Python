@@ -1,0 +1,20 @@
+Name = input("Enter Name : ")
+Course = input("Enter Course : ")
+Score = input("Enter your score : ")
+print(f"Student {Name}")
+print(f"Course {Course}")
+print(f"Score : {Score}")
+if Score == "Drop":
+    print("Grade : W")
+else:
+    Score = int(Score)
+    if Score > 80:
+        print("Grade : A")
+    elif Score >= 71 and Score <= 80:
+        print("Grade : B")
+    elif Score >= 60 and Score <= 70:
+        print("Grade : C")
+    elif Score < 60 and Score >= 50:
+        print("Grade : D")
+    elif Score < 50:
+        print("Grade : F")
