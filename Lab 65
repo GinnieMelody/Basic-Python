@@ -1,0 +1,13 @@
+y = []
+print("What multiplication table do you need to know?")
+while True:
+    x = input("Enter Multiply Number : ")
+    if x.isnumeric():
+        y.append(int(x))
+    else:
+        for index in y:
+            print(f"Start Multiplication Table {index}")
+            for z in range(1,13):
+                print(f"{z} x {index} = {z*index}")
+            print(f"End Multiplication Table {index}\n")
+        break
