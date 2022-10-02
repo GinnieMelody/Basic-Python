@@ -1,0 +1,3 @@
+x = str(input("Enter Username : "))
+Username = "Ginnie"
+print(x != Username)
