@@ -1,0 +1,3 @@
+myList = ["Chocolate","Strawberry","Curry","Tomyum","Sashimi"]
+myList.clear()
+print(myList)
