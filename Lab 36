@@ -1,0 +1,8 @@
+x = int(input("Enter Number : "))
+y = int(input("Enter Division Number : "))
+
+G = 0
+G+=x
+G%=y
+
+print(f"{x} mod {y} = {G}")
