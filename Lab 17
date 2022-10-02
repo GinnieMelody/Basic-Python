@@ -1,0 +1,5 @@
+x = input("Please enter your name : ")
+y = int(input("Please enter your Birth Year : "))
+
+txt = "Your name is : {0} , and you are {1} year.".format(x,2020-y)
+print(txt)
