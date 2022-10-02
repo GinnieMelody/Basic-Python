@@ -1,0 +1,10 @@
+x = int(input("Enter Number : "))
+y = int(input("Enter Number : "))
+z = int(input("Enter Number : "))
+
+G = 0
+G+=x
+G*=y
+G*=z
+
+print(f"{x} x {y} x {z} = {G}")
